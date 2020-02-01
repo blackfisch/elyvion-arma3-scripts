@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Kreygers - Computer">
+    <Package name="String Language">
+		<Key ID="STR_KC_addAction">
+      <Original>&lt;img image="kreygers\computer\images\icon_addAction.paa"/&gt;&lt;t size="1" font="PuristaBold" shadow="1"&gt; Access to Computer&lt;/t&gt;</Original>
+			<French>&lt;img image="kreygers\computer\images\icon_addAction.paa"/&gt;&lt;t size="1" font="PuristaBold" shadow="1"&gt; Accéder à l'ordinateur&lt;/t&gt;</French>
+      <Russian>&lt;img image="kreygers\computer\images\icon_addAction.paa"/&gt;&lt;t size="1" font="PuristaBold" shadow="1"&gt; Получить доступ компьютеру&lt;/t&gt;</Russian>
+    </Key>
+
+    <Key ID="STR_KC_LoadingBar">
+      <Original>&lt;t size="0.8" font="PuristaLight" align="center" shadow="0"&gt;LOADING&lt;/t&gt;</Original>
+			<French>&lt;t size="0.8" font="PuristaLight" align="center" shadow="0"&gt;CHARGEMENT&lt;/t&gt;</French>
+      <Russian>&lt;t size="0.8" font="PuristaLight" align="center" shadow="0"&gt;скачивание&lt;/t&gt;</Russian>
+    </Key>
+
+    <Key ID="STR_KC_LoadingBarFinished">
+      <Original>&lt;t size="0.8" font="PuristaLight" align="center" shadow="0"&gt;LAUNCHING&lt;/t&gt;</Original>
+      <French>&lt;t size="0.8" font="PuristaLight" align="center" shadow="0"&gt;LANCEMENT&lt;/t&gt;</French>
+      <Russian>&lt;t size="0.8" font="PuristaLight" align="center" shadow="0"&gt;метание&lt;/t&gt;</Russian>
+    </Key>
+
+    <Key ID="STR_KC_TitleSetupOptions">
+      <Original>&lt;t size="4" font="PuristaBold" shadow="0"&gt;SETUP&lt;/t&gt;&lt;br/&gt;&lt;t size="0.8" font="PuristaLight" shadow="0"&gt;Choose different parameters to setup our PC.&lt;br/&gt;You can modify it later with our administrator account.&lt;/t&gt;</Original>
+      <French>&lt;t size="4" font="PuristaBold" shadow="0"&gt;INSTALLATION&lt;/t&gt;&lt;br/&gt;&lt;t size="0.8" font="PuristaLight" shadow="0"&gt;Choisissez les différents paramètres pour votre PC.&lt;br/&gt;Vous pourrez toujours les modifier plus tard avec votre compte administrateur.&lt;/t&gt;</French>
+      <Russian>&lt;t size="4" font="PuristaBold" shadow="0"&gt; BLAZBLA   &lt;/t&gt;&lt;br/&gt;&lt;t size="0.8" font="PuristaLight" shadow="0"&gt;Выберите различные настройки для компьютера&lt;/t&gt;</Russian>
+    </Key>
+
+    <Key ID="STR_KC_SubTitle01SetupOptions">
+      <Original>&lt;t size="1" font="PuristaMedium" shadow="0"&gt;PC Name&lt;/t&gt;</Original>
+      <French>&lt;t size="1" font="PuristaMedium" shadow="0"&gt;Nom du PC&lt;/t&gt;</French>
+      <Russian>&lt;img image="kreygers\computer\images\icon_addAction.paa"/&gt;&lt;t size="1" font="PuristaBold" shadow="1"&gt;Имя компьютера&lt;/t&gt;</Russian>
+    </Key>
+
+    <Key ID="STR_KC_SubTitlePH01SetupOptions">
+      <Original>&lt;t size="0.8" color="#191919" font="PuristaLight" shadow="0"&gt;Ex: Public PC - Kavala&lt;/t&gt;</Original>
+      <French>&lt;t size="0.8" color="#191919" font="PuristaLight" shadow="0"&gt;Ex : PC Public - Kavala&lt;/t&gt;</French>
+      <Russian>&lt;img image="kreygers\computer\images\icon_addAction.paa"/&gt;&lt;t size="1" font="PuristaBold" shadow="1"&gt;Общественный компьютер - Москва&lt;/t&gt;</Russian>
+    </Key>
+
+    <Key ID="STR_KC_SubTitle02SetupOptions">
+      <Original>&lt;t size="1" font="PuristaMedium" shadow="0"&gt;Admin Account Name&lt;/t&gt;</Original>
+      <French>&lt;t size="1" font="PuristaMedium" shadow="0"&gt;Nom du Compte Admin&lt;/t&gt;</French>
+      <Russian>&lt;img image="kreygers\computer\images\icon_addAction.paa"/&gt;&lt;t size="1" font="PuristaBold" shadow="1"&gt;Имя компьютера&lt;/t&gt;</Russian>
+    </Key>
+
+    <Key ID="STR_KC_SubTitlePH02SetupOptions">
+      <Original>&lt;t size="0.8" color="#191919" font="PuristaLight" shadow="0"&gt;Ex: My Admin Account&lt;/t&gt;</Original>
+      <French>&lt;t size="0.8" color="#191919" font="PuristaLight" shadow="0"&gt;Ex : Mon Compte Admin&lt;/t&gt;</French>
+      <Russian>&lt;img image="kreygers\computer\images\icon_addAction.paa"/&gt;&lt;t size="1" font="PuristaBold" shadow="1"&gt;Общественный компьютер - Москва&lt;/t&gt;</Russian>
+    </Key>
+
+    <Key ID="STR_KC_SubTitle03SetupOptions">
+      <Original>&lt;t size="1" font="PuristaMedium" shadow="0"&gt;Password&lt;/t&gt;</Original>
+      <French>&lt;t size="1" font="PuristaMedium" shadow="0"&gt;Mot de passe&lt;/t&gt;</French>
+      <Russian>&lt;img image="kreygers\computer\images\icon_addAction.paa"/&gt;&lt;t size="1" font="PuristaBold" shadow="1"&gt;Имя компьютера&lt;/t&gt;</Russian>
+    </Key>
+
+    <Key ID="STR_KC_SubTitlePH03SetupOptions">
+      <Original>&lt;t size="0.8" color="#191919" font="PuristaLight" shadow="0"&gt;Type a password&lt;/t&gt;</Original>
+      <French>&lt;t size="0.8" color="#191919" font="PuristaLight" shadow="0"&gt;Écrivez un mot de passe&lt;/t&gt;</French>
+      <Russian>&lt;img image="kreygers\computer\images\icon_addAction.paa"/&gt;&lt;t size="1" font="PuristaBold" shadow="1"&gt;Общественный компьютер - Москва&lt;/t&gt;</Russian>
+    </Key>
+
+    <Key ID="STR_KC_SubTitle04SetupOptions">
+      <Original>&lt;t size="1" font="PuristaMedium" shadow="0"&gt;Confirm Password&lt;/t&gt;</Original>
+      <French>&lt;t size="1" font="PuristaMedium" shadow="0"&gt;Confirmez le Mot de Passe&lt;/t&gt;</French>
+      <Russian>&lt;img image="kreygers\computer\images\icon_addAction.paa"/&gt;&lt;t size="1" font="PuristaBold" shadow="1"&gt;Имя компьютера&lt;/t&gt;</Russian>
+    </Key>
+
+    <Key ID="STR_KC_SubTitlePH04SetupOptions">
+      <Original>&lt;t size="0.8" color="#191919" font="PuristaLight" shadow="0"&gt;Re-Type password&lt;/t&gt;</Original>
+      <French>&lt;t size="0.8" color="#191919" font="PuristaLight" shadow="0"&gt;Réecrivez le mot de passe&lt;/t&gt;</French>
+      <Russian>&lt;img image="kreygers\computer\images\icon_addAction.paa"/&gt;&lt;t size="1" font="PuristaBold" shadow="1"&gt;Общественный компьютер - Москва&lt;/t&gt;</Russian>
+    </Key>
+
+    <Key ID="STR_KC_SubTitle05SetupOptions">
+      <Original>&lt;t size="1" font="PuristaMedium" shadow="0"&gt;Public Computer&lt;/t&gt;</Original>
+      <French>&lt;t size="1" font="PuristaMedium" shadow="0"&gt;Ordinateur Public&lt;/t&gt;</French>
+      <Russian>&lt;img image="kreygers\computer\images\icon_addAction.paa"/&gt;&lt;t size="1" font="PuristaBold" shadow="1"&gt;Имя компьютера&lt;/t&gt;</Russian>
+    </Key>
+
+    <Key ID="STR_KC_PasswordPowerNone">
+      <Original>&lt;t size="0.8" color="#a6b9c4" font="PuristaLight" shadow="0"&gt;VERY WEAK&lt;/t&gt;</Original>
+      <French>&lt;t size="0.8" color="#a6b9c4" font="PuristaLight" shadow="0"&gt;TRÈS FAIBLE&lt;/t&gt;</French>
+      <Russian>&lt;img image="kreygers\computer\images\icon_addAction.paa"/&gt;&lt;t size="1" font="PuristaBold" shadow="1"&gt;Общественный компьютер - Москва&lt;/t&gt;</Russian>
+    </Key>
+
+    <Key ID="STR_KC_PasswordPowerWeak">
+      <Original>&lt;t size="0.8" color="#FF0000" font="PuristaLight" shadow="0"&gt;WEAK&lt;/t&gt;</Original>
+      <French>&lt;t size="0.8" color="#FF0000" font="PuristaLight" shadow="0"&gt;FAIBLE&lt;/t&gt;</French>
+      <Russian>&lt;img image="kreygers\computer\images\icon_addAction.paa"/&gt;&lt;t size="1" font="PuristaBold" shadow="1"&gt;Общественный компьютер - Москва&lt;/t&gt;</Russian>
+    </Key>
+
+    <Key ID="STR_KC_PasswordPowerMedium">
+      <Original>&lt;t size="0.8" color="#FF8000" font="PuristaLight" shadow="0"&gt;MEDIUM&lt;/t&gt;</Original>
+      <French>&lt;t size="0.8" color="#FF8000" font="PuristaLight" shadow="0"&gt;MOYEN&lt;/t&gt;</French>
+      <Russian>&lt;img image="kreygers\computer\images\icon_addAction.paa"/&gt;&lt;t size="1" font="PuristaBold" shadow="1"&gt;Общественный компьютер - Москва&lt;/t&gt;</Russian>
+    </Key>
+
+    <Key ID="STR_KC_PasswordPowerStrong">
+      <Original>&lt;t size="0.8" color="#FFFF00" font="PuristaLight" shadow="0"&gt;STRONG&lt;/t&gt;</Original>
+      <French>&lt;t size="0.8" color="#FFFF00" font="PuristaLight" shadow="0"&gt;FORT&lt;/t&gt;</French>
+      <Russian>&lt;img image="kreygers\computer\images\icon_addAction.paa"/&gt;&lt;t size="1" font="PuristaBold" shadow="1"&gt;Общественный компьютер - Москва&lt;/t&gt;</Russian>
+    </Key>
+
+    <Key ID="STR_KC_PasswordPowerVeryStrong">
+      <Original>&lt;t size="0.8" color="#80FF00" font="PuristaLight" shadow="0"&gt;VERY STRONG&lt;/t&gt;</Original>
+      <French>&lt;t size="0.8" color="#80FF00" font="PuristaLight" shadow="0"&gt;TRÈS FORT&lt;/t&gt;</French>
+      <Russian>&lt;img image="kreygers\computer\images\icon_addAction.paa"/&gt;&lt;t size="1" font="PuristaBold" shadow="1"&gt;Общественный компьютер - Москва&lt;/t&gt;</Russian>
+    </Key>
+
+    <Key ID="STR_KC_SubNextButtonAASetupOptions">
+      <Original>&lt;t size="1" color="#ffffff" font="PuristaBold" align="center" shadow="0"&gt;NEXT&lt;/t&gt;</Original>
+      <French>&lt;t size="1" color="#ffffff" font="PuristaBold" align="center" shadow="0"&gt;SUIVANT&lt;/t&gt;</French>
+      <Russian>&lt;img image="kreygers\computer\images\icon_addAction.paa"/&gt;&lt;t size="1" font="PuristaBold" shadow="1"&gt;Имя компьютера&lt;/t&gt;</Russian>
+    </Key>
+    <Key ID="STR_KC_SubNextButtonABSetupOptions">
+      <Original>&lt;t size="1" color="#15435e" font="PuristaBold" align="center" shadow="0"&gt;NEXT&lt;/t&gt;</Original>
+      <French>&lt;t size="1" color="#15435e" font="PuristaBold" align="center" shadow="0"&gt;SUIVANT&lt;/t&gt;</French>
+      <Russian>&lt;img image="kreygers\computer\images\icon_addAction.paa"/&gt;&lt;t size="1" font="PuristaBold" shadow="1"&gt;Имя компьютера&lt;/t&gt;</Russian>
+    </Key>
+	</Package>
+</Project>
+
+<!--
+меню = menu
+ноутбук = ordinateur portable
+операционная система = system d'exploi
+по́мощь = Guide/assistance
+программное обеспечение = logiciel
+скачивание = téléchargement
+счёт = compte d'utilisateur
+часто задаваемые вопросы = Foire aux questions
+экран = écran d'ordi
+соединение = connexion
+отключение  = déconnexion
+Папка = un dossier
+Файл = un fichier
+
+-->

@@ -1,0 +1,73 @@
+/* 
+	჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻
+	჻჻  
+	჻჻  ELYVION | HOLDING - (Previously Kreygers | Group)
+	჻჻
+	჻჻  Description : File description.ext (Allows to declare files and sound)
+	჻჻
+	჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻ 
+*/
+
+class CfgSounds {
+    sounds[] = {};
+    class DONX1 {
+        name = "DONX1";
+        sound[] = {"sounds\DON\x1.ogg", db + 50, 1};
+        titles[] = {};
+    };
+	class DONX2 {
+        name = "DONX2";
+        sound[] = {"sounds\DON\x2.ogg", db + 50, 1};
+        titles[] = {};
+    };
+	class DONX3 {
+        name = "DONX3";
+        sound[] = {"sounds\DON\x3.ogg", db + 50, 1};
+        titles[] = {};
+    };
+	class DONX4 {
+        name = "DONX4";
+        sound[] = {"sounds\DON\x4.ogg", db + 50, 1};
+        titles[] = {};
+    };
+	class DONX5 {
+        name = "DONX5";
+        sound[] = {"sounds\DON\x5.ogg", db + 50, 1};
+        titles[] = {};
+    };
+	class DONX6 {
+        name = "DONX6";
+        sound[] = {"sounds\DON\x6.ogg", db + 50, 1};
+        titles[] = {};
+    };
+	class DONX7 {
+        name = "DONX7";
+        sound[] = {"sounds\DON\x7.ogg", db + 50, 1};
+        titles[] = {};
+    };
+	class DONX8 {
+        name = "DONX8";
+        sound[] = {"sounds\DON\x8.ogg", db + 50, 1};
+        titles[] = {};
+    };
+	class DONX9 {
+        name = "DONX9";
+        sound[] = {"sounds\DON\x9.ogg", db + 50, 1};
+        titles[] = {};
+    };
+	class DONXN {
+        name = "DONXN";
+        sound[] = {"sounds\DON\nothing.ogg", db + 50, 1};
+        titles[] = {};
+    };
+	class DONXCO {
+        name = "DONXCO";
+        sound[] = {"sounds\DON\cashout.ogg", db + 50, 1};
+        titles[] = {};
+    };
+	class DONXJ {
+        name = "DONXJ";
+        sound[] = {"sounds\DON\jackpot.ogg", db + 50, 1};
+        titles[] = {};
+    };
+};

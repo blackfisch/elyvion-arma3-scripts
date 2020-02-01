@@ -1,0 +1,400 @@
+/* 
+	჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻
+	჻჻  
+	჻჻  ELYVION | HOLDING - (Previously Kreygers | Group)
+	჻჻
+	჻჻  Description : description.ext File (Allows to declare files and sound)
+	჻჻
+	჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻ 
+*/
+
+#include "dialog\common.hpp"
+#include "kreygers\piano\dialog\pianomenu.hpp"
+
+class CfgSounds {
+    sounds[] = {};
+
+  class Click1 {
+        name = "Click1";
+        sound[] = {"kreygers\piano\sounds\Click1.ogg", db + 50, 1};
+        titles[] = {};
+    };
+
+	class Click2 {
+        name = "Click2";
+        sound[] = {"kreygers\piano\sounds\Click2.ogg",  db + 50, 1};
+        titles[] = {};
+    };
+
+  class UnAuthorizedSound {
+        name = "UnAuthorizedSound";
+        sound[] = {"kreygers\piano\sounds\UnAuthorizedSound.ogg",  0.2, 1};
+        titles[] = {};
+    };
+
+	class KNPiano1 {
+        name = "KNPiano1";
+        sound[] = {"kreygers\piano\sounds\KNPiano1.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano2 {
+        name = "KNPiano2";
+        sound[] = {"kreygers\piano\sounds\KNPiano2.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano3 {
+        name = "KNPiano3";
+        sound[] = {"kreygers\piano\sounds\KNPiano3.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano4 {
+        name = "KNPiano4";
+        sound[] = {"kreygers\piano\sounds\KNPiano4.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano5 {
+        name = "KNPiano5";
+        sound[] = {"kreygers\piano\sounds\KNPiano5.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano6 {
+        name = "KNPiano6";
+        sound[] = {"kreygers\piano\sounds\KNPiano6.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano7 {
+        name = "KNPiano7";
+        sound[] = {"kreygers\piano\sounds\KNPiano7.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano8 {
+        name = "KNPiano8";
+        sound[] = {"kreygers\piano\sounds\KNPiano8.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano9 {
+        name = "KNPiano9";
+        sound[] = {"kreygers\piano\sounds\KNPiano9.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano10 {
+        name = "KNPiano10";
+        sound[] = {"kreygers\piano\sounds\KNPiano10.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano11 {
+        name = "KNPiano11";
+        sound[] = {"kreygers\piano\sounds\KNPiano11.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano12 {
+        name = "KNPiano12";
+        sound[] = {"kreygers\piano\sounds\KNPiano12.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano13 {
+        name = "KNPiano13";
+        sound[] = {"kreygers\piano\sounds\KNPiano13.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano14 {
+        name = "KNPiano14";
+        sound[] = {"kreygers\piano\sounds\KNPiano14.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano15 {
+        name = "KNPiano15";
+        sound[] = {"kreygers\piano\sounds\KNPiano15.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano16 {
+        name = "KNPiano16";
+        sound[] = {"kreygers\piano\sounds\KNPiano16.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano17 {
+        name = "KNPiano17";
+        sound[] = {"kreygers\piano\sounds\KNPiano17.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano18 {
+        name = "KNPiano18";
+        sound[] = {"kreygers\piano\sounds\KNPiano18.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano19 {
+        name = "KNPiano19";
+        sound[] = {"kreygers\piano\sounds\KNPiano19.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano20 {
+        name = "KNPiano20";
+        sound[] = {"kreygers\piano\sounds\KNPiano20.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano21 {
+        name = "KNPiano21";
+        sound[] = {"kreygers\piano\sounds\KNPiano21.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano22 {
+        name = "KNPiano22";
+        sound[] = {"kreygers\piano\sounds\KNPiano22.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano23 {
+        name = "KNPiano23";
+        sound[] = {"kreygers\piano\sounds\KNPiano23.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano24 {
+        name = "KNPiano24";
+        sound[] = {"kreygers\piano\sounds\KNPiano24.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KNPiano25 {
+        name = "KNPiano25";
+        sound[] = {"kreygers\piano\sounds\KNPiano25.ogg", 1, 1};
+        titles[] = {};
+    };
+
+    class KPiano1 {
+        name = "KPiano1";
+        sound[] = {"kreygers\piano\sounds\KPiano1.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano2 {
+        name = "KPiano2";
+        sound[] = {"kreygers\piano\sounds\KPiano2.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano3 {
+        name = "KPiano3";
+        sound[] = {"kreygers\piano\sounds\KPiano3.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano4 {
+        name = "KPiano4";
+        sound[] = {"kreygers\piano\sounds\KPiano4.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano5 {
+        name = "KPiano5";
+        sound[] = {"kreygers\piano\sounds\KPiano5.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano6 {
+        name = "KPiano6";
+        sound[] = {"kreygers\piano\sounds\KPiano6.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano7 {
+        name = "KPiano7";
+        sound[] = {"kreygers\piano\sounds\KPiano7.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano8 {
+        name = "KPiano8";
+        sound[] = {"kreygers\piano\sounds\KPiano8.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano9 {
+        name = "KPiano9";
+        sound[] = {"kreygers\piano\sounds\KPiano9.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano10 {
+        name = "KPiano10";
+        sound[] = {"kreygers\piano\sounds\KPiano10.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano11 {
+        name = "KPiano11";
+        sound[] = {"kreygers\piano\sounds\KPiano11.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano12 {
+        name = "KPiano12";
+        sound[] = {"kreygers\piano\sounds\KPiano12.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano13 {
+        name = "KPiano13";
+        sound[] = {"kreygers\piano\sounds\KPiano13.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano14 {
+        name = "KPiano14";
+        sound[] = {"kreygers\piano\sounds\KPiano14.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano15 {
+        name = "KPiano15";
+        sound[] = {"kreygers\piano\sounds\KPiano15.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano16 {
+        name = "KPiano16";
+        sound[] = {"kreygers\piano\sounds\KPiano16.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano17 {
+        name = "KPiano17";
+        sound[] = {"kreygers\piano\sounds\KPiano17.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano18 {
+        name = "KPiano18";
+        sound[] = {"kreygers\piano\sounds\KPiano18.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano19 {
+        name = "KPiano19";
+        sound[] = {"kreygers\piano\sounds\KPiano19.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano20 {
+        name = "KPiano20";
+        sound[] = {"kreygers\piano\sounds\KPiano20.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano21 {
+        name = "KPiano21";
+        sound[] = {"kreygers\piano\sounds\KPiano21.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano22 {
+        name = "KPiano22";
+        sound[] = {"kreygers\piano\sounds\KPiano22.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano23 {
+        name = "KPiano23";
+        sound[] = {"kreygers\piano\sounds\KPiano23.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano24 {
+        name = "KPiano24";
+        sound[] = {"kreygers\piano\sounds\KPiano24.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano25 {
+        name = "KPiano25";
+        sound[] = {"kreygers\piano\sounds\KPiano25.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano26 {
+        name = "KPiano26";
+        sound[] = {"kreygers\piano\sounds\KPiano26.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano27 {
+        name = "KPiano27";
+        sound[] = {"kreygers\piano\sounds\KPiano27.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano28 {
+        name = "KPiano28";
+        sound[] = {"kreygers\piano\sounds\KPiano28.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano29 {
+        name = "KPiano29";
+        sound[] = {"kreygers\piano\sounds\KPiano29.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano30 {
+        name = "KPiano30";
+        sound[] = {"kreygers\piano\sounds\KPiano30.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano31 {
+        name = "KPiano31";
+        sound[] = {"kreygers\piano\sounds\KPiano31.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano32 {
+        name = "KPiano32";
+        sound[] = {"kreygers\piano\sounds\KPiano32.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano33 {
+        name = "KPiano33";
+        sound[] = {"kreygers\piano\sounds\KPiano33.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano34 {
+        name = "KPiano34";
+        sound[] = {"kreygers\piano\sounds\KPiano34.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano35 {
+        name = "KPiano35";
+        sound[] = {"kreygers\piano\sounds\KPiano35.ogg", 1, 1};
+        titles[] = {};
+    };
+
+	class KPiano36 {
+        name = "KPiano36";
+        sound[] = {"kreygers\piano\sounds\KPiano36.ogg", 1, 1};
+        titles[] = {};
+    };
+};

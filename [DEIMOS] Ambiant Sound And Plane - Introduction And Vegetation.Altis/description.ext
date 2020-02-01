@@ -1,0 +1,78 @@
+/* 
+	჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻
+	჻჻  
+	჻჻  ELYVION | HOLDING - (Previously Kreygers | Group)
+	჻჻
+	჻჻  Description : File description.ext (Allows to declare files and sound).
+	჻჻
+	჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻ 
+*/
+
+#include "dialog\defines.hpp"
+#include "menu\dialog\start.hpp"
+#include "menu\dialog\menuprinc.hpp"
+
+class CfgSounds {
+    sounds[] = {};
+    class Click1 {
+        name = "Click1";
+        sound[] = {"sounds\Click1.ogg", db + 50, 1};
+        titles[] = {};
+    };
+	
+	class Click2 {
+        name = "Click2";
+        sound[] = {"sounds\Click2.ogg",  db + 50, 1};
+        titles[] = {};
+    };
+	
+	class Click3 {
+		name = "Click3";
+		sound[] = {"sounds\Click3.ogg",  db + 60, 1};
+		titles[] = {};
+	};
+	
+	class MaisonSong {
+		name = "MaisonSong";
+		sound[] = {"sounds\Song\MaisonSong.ogg",  db + 60, 1};
+		titles[] = {};
+	};
+	
+	class avions01 {
+		name = "avions01";
+		sound[] = {"sounds\avions01.ogg",  db + 60, 1};
+		titles[] = {};
+	};
+	
+	class ambients01 {
+		name = "ambients01";
+		sound[] = {"sounds\ambients01.ogg",  0.8, 1};
+		titles[] = {};
+	};
+	
+	class ambient02 {
+		name = "ambient02";
+		sound[] = {"sounds\ambient02.ogg",  db +60, 1};
+		titles[] = {};
+	};
+};
+	
+class CfgMusic
+{
+	tracks[] = {};
+	class ClickMenuSong {
+		name = "ClickMenuSong";
+		sound[] = {"sounds\Song\ClickMenuSong.ogg",  0.8, 1};
+	};
+};
+
+class CfgDebriefing {
+    class LeaveMenuPrinc {
+        title = "KREYGERS | GROUP";
+        subtitle = "VOUS REMERCIE D'AVOIR JOUÉ PARMIS NOUS";
+        description = "<t align='center' size='1.1' font='PuristaMedium'>N'hésitez pas à revenir !</t><br/><t align='center' size='0.8' font='PuristaLight'>-- Plus d'Informations --</t><br/><t align='center' size='0.8' font='PuristaLight'>Site Web : </t><a font='PuristaLight' underline='false' color='#cc0000' size='0.8' href='http://www.kreygers.com/'><t align='center' font='PuristaLight' size='0.8' color='#cc0000'>www.kreygers.com</a></t><br/>";
+        pictureBackground = "textures\fondendmission.jpg";
+        picture = "textures\newlogo.paa";
+        pictureColor[] = {1,1,1,1};
+    };
+};

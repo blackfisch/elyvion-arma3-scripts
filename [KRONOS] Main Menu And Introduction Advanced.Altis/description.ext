@@ -1,0 +1,55 @@
+/* 
+	჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻
+	჻჻  
+	჻჻  ELYVION | HOLDING - (Previously Kreygers | Group)
+	჻჻
+	჻჻  Description : description.ext file (Allows to declare files and sound)
+	჻჻
+	჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻ 
+*/
+
+#include "dialog\common.hpp"
+#include "kreygers\mainmenu\dialog\mainmenu01.hpp"
+
+class CfgSounds {
+    sounds[] = {};
+    class Click1 {
+        name = "Click1";
+        sound[] = {"sounds\Click1.ogg", db + 50, 1};
+        titles[] = {};
+    };
+	
+	class Click2 {
+        name = "Click2";
+        sound[] = {"sounds\Click2.ogg",  db + 50, 1};
+        titles[] = {};
+    };
+	
+	class Click3 {
+		name = "Click3";
+		sound[] = {"sounds\Click3.ogg",  db + 60, 1};
+		titles[] = {};
+	};
+	
+	class Notif1 {
+		name = "Notif1";
+		sound[] = {"sounds\Notif1.ogg",  db + 60, 1};
+		titles[] = {};
+	};
+	
+	class Notif2 {
+		name = "Notif2";
+		sound[] = {"sounds\Notif2.ogg",  db + 60, 1};
+		titles[] = {};
+	};
+};
+
+class CfgMusic
+{
+	tracks[] = {};
+	class MusicStart01
+	{
+		name	= "";
+		sound[]	= { "\sounds\MusicStart01.ogg", db + 0, 1.0 };
+	};
+};

@@ -1,0 +1,12 @@
+/* 
+	჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻
+	჻჻  
+	჻჻  ELYVION | HOLDING - (Previously Kreygers | Group)
+	჻჻
+	჻჻  Description : description.ext File (Allows to declare files and sound)
+	჻჻
+	჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻ 
+*/
+
+#include "dialog\common.hpp"
+#include "Scripts\MenuServer\Dialog\menu01.hpp"

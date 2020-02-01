@@ -1,0 +1,34 @@
+/* 
+	჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻
+	჻჻  
+	჻჻  ELYVION | HOLDING - (Previously Kreygers | Group)
+	჻჻
+	჻჻  Description : File description.ext (Allows to declare files and sound).
+	჻჻
+	჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻ 
+*/
+
+#include "dialog\common.hpp"
+
+//-------------
+
+#include "kreygers\kreygers_cfg_master.cpp"
+#include "kreygers\kreygers_dialog_master.hpp"
+
+//-------------
+
+
+//-------------
+
+class CfgFunctions {
+  #include "kreygers\kreygers_fnc_master.hpp"
+};
+
+class CfgSounds {
+    sounds[] = {};
+    class Kreygers_StartSndOS {
+        name = "StartSndOS";
+        sound[] = {"\kreygers\computer\sounds\StartSndOS.ogg", 1.0, 1};
+        titles[] = {};
+    };
+};

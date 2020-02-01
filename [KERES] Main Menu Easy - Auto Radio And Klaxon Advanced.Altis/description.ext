@@ -1,0 +1,83 @@
+/* 
+	჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻
+	჻჻  
+	჻჻  ELYVION | HOLDING - (Previously Kreygers | Group)
+	჻჻
+	჻჻  Description : File description.ext (Allows to declare files and sound).
+	჻჻
+	჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻჻ 
+*/
+
+#include "dialog\appearance\default.hpp"
+#include "RemoteExecCollection.hpp"
+
+//|------------|\\
+
+#include "config\CfgCollection.cpp"
+#include "dialog\DialogCollection.hpp"
+
+//|------------|\\
+
+
+//|------------|\\
+
+class CfgFunctions {
+  #include "ClientFunctions.hpp"
+};
+
+class RscTitles {
+    #include "dialog\rsc\autoRadioMenuRsc.hpp"
+};
+
+class CfgMusic {
+	tracks[] = {};
+	class MMSongStart {
+		name = "MMSongStart";
+		sound[]	= { "sounds\MMSongStart1.ogg", db + 0, 1.0 };
+	};
+};
+
+class CfgSounds {
+    sounds[] = {};
+    class SFXHornStandard {
+        name = "SFXHornStandard";
+        sound[] = {"sounds\SFXHornStandard.ogg", 100.0, 1};
+        titles[] = {};
+    };
+	class HornTruckVeh01 {
+		name = "HornTruckVeh01";
+        sound[] = {"sounds\HornTruckVeh01.ogg", 100.0, 1};
+        titles[] = {};
+	};
+	
+	class AutoRadioSongRoyalty {
+        name = "AutoRadioSongRoyalty";
+        sound[] = {"sounds\AutoRadioSongRoyalty.ogg", 1.0, 1};
+        titles[] = {};
+    };
+	class AutoRadioSongHotGirl {
+        name = "AutoRadioSongHotGirl";
+        sound[] = {"sounds\AutoRadioSongHotGirl.ogg", 1.0, 1};
+        titles[] = {};
+    };
+	class AutoRadioSongSaintTropez {
+        name = "AutoRadioSongSaintTropez";
+        sound[] = {"sounds\AutoRadioSongSaintTropez.ogg", 1.0, 1};
+        titles[] = {};
+    };
+	class AutoRadioSongSun {
+        name = "AutoRadioSongSun";
+        sound[] = {"sounds\AutoRadioSongSun.ogg", 1.0, 1};
+        titles[] = {};
+    };
+	class AutoRadioSongKnowYou {
+        name = "AutoRadioSongKnowYou";
+        sound[] = {"sounds\AutoRadioSongKnowYou.ogg", 1.0, 1};
+        titles[] = {};
+    };
+	class AutoRadioSongBeforeYouGo {
+        name = "AutoRadioSongBeforeYouGo";
+        sound[] = {"sounds\AutoRadioSongBeforeYouGo.ogg", 1.0, 1};
+        titles[] = {};
+    };
+};
